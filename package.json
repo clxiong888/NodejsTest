@@ -1,0 +1,15 @@
+{
+  "name": "clxnodejspackage",
+  "version": "1.0.0",
+  "description": "This is a test for nodejs",
+  "main": "First.js",
+  "scripts": {
+    "test": "make tst"
+  },
+  "author": "clx",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clxiong888"
+  }
+}
