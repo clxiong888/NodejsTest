@@ -5,10 +5,19 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/first.js",
+            "skipFiles": [
+                
+            ]
+        },
+        {
             "type": "chrome",
-            "request": "attach",
+            "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8080",
+            "url": "http://localhost:8888",
             "webRoot": "${workspaceFolder}"
         }
     ]
