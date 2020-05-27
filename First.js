@@ -22,4 +22,4 @@ fs.readFile("README.md", (err,data)=>{
         console.log("The message:"+ data);
     }
 })
-console.log("sync end..")
+console.log("sync end..");
